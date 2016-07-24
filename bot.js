@@ -1,5 +1,3 @@
-var keys = require("keys.js");
-
 var TwitterBot = require("node-twitterbot").TwitterBot;
 
 // Include your access information below
