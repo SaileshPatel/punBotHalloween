@@ -1,11 +1,13 @@
+var keys = require("keys.js");
+
 var TwitterBot = require("node-twitterbot").TwitterBot;
 
 // Include your access information below
 var Bot = new TwitterBot({
-    "consumer_secret": consumerSecret,
-    "consumer_key": consumerKey,
-    "access_token": accessToken,
-    "access_token_secret": accessSecret
+    "consumer_secret": keys.consumerSecret,
+    "consumer_key": keys.consumerKey,
+    "access_token": keys.accessToken,
+    "access_token_secret": keys.accessSecret
   });
 
 var witches = "Q: Why don't witches like to ride their brooms when they're angry? \nA: They're afraid of flying off the handle."
