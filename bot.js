@@ -16,8 +16,10 @@ var skeleton = "Q: Who won the skeleton beauty contest? \nA: No body."
 var romeo = "Q: What's a monster's favorite play? \nA: Romeo and Ghouliet."
 var dracula = "Q: How can you tell when you're in bed with Count Dracula? \nA: He has a big D on his pajamas."
 
+// array with variables
 var jokes = [witches, dayscare, frankenstein, bone, skeleton, romeo, dracula];
 
+// variable which selects random variable
 var random = jokes[Math.floor(Math.random()*jokes.length)];
 
 // Create an action called 'tweet' associated with some function
